@@ -98,3 +98,20 @@ let daysStudying = 4;
 
 const sentence = `My dream job is to one day be a ${dreamJob}. I have been studying for ${daysStudying}`;
 console.log(sentence);
+
+//JS: Conditionals
+
+let userAge = prompt("What is your age?");
+let movieRating = 15;
+
+if (userAge > 15) {
+  console.log("You can watch any movie!");
+} else if (userAge === 15) {
+  if (movieRating === "15") {
+    console.log("You can watch the movie!");
+  }
+} else if (userAge < 15) {
+  console.log("You're too young to watch!");
+} else {
+  console.log("That's not a real age");
+}
